@@ -1,9 +1,15 @@
 # next
 Curso next Alura
-- **SSG /Static (Gerar site estático)**:
-  - Por padrão 
+
+- **Static**
+  - Por padrão
+  - Só vai usar o `next export`, em casos onde TUDO é pré-reenderizado
+  - `getStaticProps`: versão com menos recursos
+  
+- **SSG (Static Site Generation)**: 
   - `getStaticProps`
-  - **Incremental Statis Generation**:
+    - `revalidate`: true [npm run build && npm start]
+  - **Incremental Statis Generation**: [npm run build && npm start]
     - fallback: true || 'blocking' e o getStaticPaths vem vazio ou com somente alguns itens
     
     

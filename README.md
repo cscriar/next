@@ -1,4 +1,4 @@
-# next
+# next.js
 Curso next Alura
 
 - **Static**
@@ -12,7 +12,9 @@ Curso next Alura
   - **Incremental Statis Generation**: [npm run build && npm start]
     - fallback: true || 'blocking' e o getStaticPaths vem vazio ou com somente alguns itens
     
-    
 - **SSR(Server Side Render)**:
   - `getServerSideProps`
   - Se tiver dentro da pasta `/api´ é uma API Route e é SSR
+
+
+## Autenticação
